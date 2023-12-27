@@ -19,6 +19,8 @@ strong {
 
 .image-container {
   overflow: hidden;
+  margin-bottom: 100px;
+  
 }
 
 .image-container img {
@@ -32,8 +34,11 @@ header {
   display: flex;
   align-items: center;
   padding: 0 2rem;
-  background-color: black;
   border-radius: 5px;
+  background-image: url("images/family.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 #logo-small {
@@ -67,6 +72,7 @@ nav li {
 nav {
   text-align: center;
   padding: 5px;
+  margin-bottom: 120px;
 }
 
 @media only screen and (max-width: 1000px) {
