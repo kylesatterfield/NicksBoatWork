@@ -100,24 +100,28 @@ nav {
 
 .bannertext h4 {
     font-weight: 400;
+    line-height: 40px;
 }
 
 .video-container {
     display: block;
     z-index: 2;
-    width: 500px;
+    min-width: 500px;
+    width: 50%;
     height: 350px;
     overflow:hidden;
     position:absolute;
-    top: 100px;
-    right: 20px;
+    top: 130px;
+    right: 2%;
 }
 
 #video-bg{
     width:100%;
     min-height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     position: relative;
+    bottom: 0;
+    top: -50px;
 }
 
 header {
