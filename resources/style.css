@@ -39,14 +39,13 @@ nav {
 #nav-link-container {
     justify-content: space-between;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 75%;
 }
 
 
 .nav-link {
-    margin-right: 15px;
-    padding: 5px;
+   margin: 0 10px;
 }
 
 #nav-link-container li {
@@ -62,20 +61,24 @@ nav {
 }
 
 #logo {
-    height: 60px;
+    height: 80px;
     width: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 50px;
     right: 50px;
 }
 
+header {
+    height: 550px;
+    width: 100%;
+}
 
 /* banner */
 .bannerimg {
     background-image: linear-gradient( rgba(1, 23, 85, 0.8), rgba(1, 23, 85, 0.8)), url("images/family.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 550px;
     width: 75%;
     flex-direction: column;
     align-items: center;
@@ -86,12 +89,13 @@ nav {
 }
 
 .bannertext {
-    display: block;
+    display: inline-block;
     position: absolute;
+    flex-wrap: nowrap;
     width: 400px;
     color: white;
-    flex-wrap: wrap;
-    left: 10%;
+    left: 15%;
+    top: 150px;
 }
 
 .bannertext h2 {
@@ -100,7 +104,7 @@ nav {
 
 .bannertext h4 {
     font-weight: 400;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .video-container {
@@ -124,25 +128,30 @@ nav {
     top: -50px;
 }
 
-header {
-    height: 600px;
-    width: 100%;
-}
-
 #call {
     border: none;
-    color: white;
+    background-color: rgb(1, 23, 85);
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
     cursor: pointer;
-
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 280px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: none;
   }
 
-.break { 
+#call a {
+    color: white;
+    text-decoration: none;
+}
+
+.break {
+    display: static;
 }
 
 
@@ -156,21 +165,26 @@ header {
     }
     #logo {
         margin-right: 0px;
+        margin-top: 30px;
+        height: 100px;
     }
     .flex-430px {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
     }
-
+    #nav-link-container {
+        margin-top: 30px;
+    }
     #nav-link-container li {
         display: block;
     }
     .bannerimg {
         width: 100%;
+        height: 700px;
     }
     .bannertext {
-        margin-top: 200px;
+        margin-top: 190px;
         text-align: center;
         width: 100%;
         left: auto;
@@ -182,7 +196,10 @@ header {
         font-size: 20px;
     }
     header {
-        height: 750px;
+        height: 700px;
+    }
+    #call {
+        display: block;
     }
     
   }
