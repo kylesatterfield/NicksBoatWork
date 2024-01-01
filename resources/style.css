@@ -37,20 +37,17 @@ nav {
 }
 
 #nav-link-container {
-    justify-content: space-between;
     text-align: center;
     margin-top: 0px;
     width: 75%;
 }
 
 
-.nav-link {
-   margin: 0 10px;
-}
-
 #nav-link-container li {
     list-style-type: none;
     display: inline-flex;
+    margin: 0 20px;
+    justify-content: space-between;
   }
 
 #nav-link-container a {
@@ -64,12 +61,12 @@ nav {
     height: 80px;
     width: auto;
     margin-top: 20px;
-    margin-right: 50px;
+    margin-right: 8%;
     right: 50px;
 }
 
 header {
-    height: 550px;
+    height: 600px;
     width: 100%;
 }
 
@@ -78,7 +75,7 @@ header {
     background-image: linear-gradient( rgba(1, 23, 85, 0.8), rgba(1, 23, 85, 0.8)), url("images/family.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 600px;
     width: 75%;
     flex-direction: column;
     align-items: center;
@@ -99,12 +96,13 @@ header {
 }
 
 .bannertext h2 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .bannertext h4 {
     font-weight: 400;
     line-height: 30px;
+    font-size: 20px;
 }
 
 .video-container {
