@@ -72,8 +72,9 @@ nav {
 
 /* banner */
 .bannerimg {
-    background-image: linear-gradient( rgba(1, 23, 85, 0.8), rgba(1, 23, 85, 0.8)), url("images/burgerback.jpg");
+    background-image: linear-gradient( rgba(1, 23, 85, 0.8), rgba(1, 23, 85, 0.8)), url("images/family.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     width: 75%;
     flex-direction: column;
@@ -119,13 +120,12 @@ nav {
     position: relative;
 }
 
-.break {
-    display: block;
-    position: absolute;
-    top: 600;
+header {
+    height: 600px;
     width: 100%;
-    height: 400px;
-    z-index: 5;
+}
+
+.break { 
 }
 
 
@@ -156,11 +156,19 @@ nav {
         margin-top: 100px;
         text-align: center;
         width: 100%;
+        left: auto;
     }
     .bannertext h2 {
         font-size: 35px;
     }
     .bannertext h4 {
         font-size: 20px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1000px) {
+    .video-container {
+        display: none;
     }
   }
