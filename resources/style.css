@@ -172,20 +172,22 @@ button {
     .section {
     width: 100%;
     flex-direction: row;
-    padding: 5%;
-    margin-top: 20px;
+    margin-top: 100px;
     border: 2px solid white;
     }
 
+    .pic {
+        width: 100%;
+      }
+
    .figureleft {
-    width: 50%;
-    margin-right: 5%;
-    text-align: center;
+    margin: auto 2% auto 2%;
+    border: 2px solid yellow;
     }
 
-    .articleright {;
+    .articleright {
     width: 45%;
-    margin: auto 0;
+    margin: auto 2%;
     }
 
     .articleleft {
@@ -201,10 +203,6 @@ button {
 
   .shadow {
     box-shadow:  rgba(61, 61, 61, 0.9);
-  }
-
-  .pic {
-    width: 100%;
   }
 
   .pictall {
@@ -310,8 +308,6 @@ button {
     }
 
     .articleleft {
-;
- 
     width: 80%;
     }
 
