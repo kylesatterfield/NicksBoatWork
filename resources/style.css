@@ -181,24 +181,25 @@ button {
       }
 
    .figureleft {
-    margin: auto 2% auto 2%;
+    margin: auto 1% auto 4%;
     border: 2px solid yellow;
+    width: 50%;
     }
 
     .articleright {
-    width: 45%;
-    margin: auto 2%;
+    width: 40%;
+    margin: auto 4% auto 1%;
+    border: 2px solid yellow;
     }
 
     .articleleft {
-    width: 45%;
-    margin: auto 0;
+    margin: auto 1% auto 4%;
+    width: 40%;
     }
 
     .figureright {
+    margin: auto 4% auto 1%;
     width: 50%;
-    margin-left: 5%;
-    text-align: center;
     }
 
   .shadow {
@@ -206,7 +207,8 @@ button {
   }
 
   .pictall {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
     max-height: 400px;
   }
 
@@ -220,10 +222,6 @@ button {
   .button2 a {
     color:white;
     text-decoration: none;
-  }
-
-  .fig2nd {
-    
   }
 
 /* Section 2 */
@@ -281,10 +279,12 @@ button {
     #call {
         display: block;
     }
-    
+    h3 {
+        font-size: 50px;
+    }
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     .video-container {
         display: none;
     }
@@ -298,20 +298,22 @@ button {
         box-shadow: -20px 20px rgba(1, 38, 68, 0.9);
     }
     .figureleft {
-
-    width: 80%;
+    width: 90%;
+    margin: auto 5%;
     }
-    
     .articleright {
-
-    width: 80%
+        width: 90%;
+        margin: auto 5%;
     }
-
     .articleleft {
-    width: 80%;
+        width: 90%;
+        margin: auto 5%;
     }
-
     .figureright {
-    width: 80%;
+        width: 90%;
+        margin: auto 5%;
+    }
+    article h5 {
+        display:none;
     }
   }
