@@ -87,8 +87,8 @@ nav {
     height: 60px;
     width: auto;
     margin-top: 20px;
-    margin-right: 5%vw;
-    right: 50px;
+    margin-right: 30px;
+    
 }
 
 /* header */
@@ -200,7 +200,6 @@ button {
     margin-left: 6%;
     margin-right: 10%;
     width: 40%;
-    border: 2px solid white;
     }
 
   .shadow {
