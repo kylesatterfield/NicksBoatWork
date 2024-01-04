@@ -6,22 +6,22 @@
 }
 
 body {
-    background-color: rgba(1, 38, 68, 0.5);
+    background-color: rgba(1, 38, 68, 0.9);
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    color: black;
+    color: white;
     width: 100%;
     height: 100%
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 40px;
+    font-size: 70px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -40,7 +40,7 @@ h5 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -172,42 +172,44 @@ button {
     .section {
     width: 100%;
     flex-direction: row;
-    margin-top: 120px;
+    padding: 5%;
+    margin-top: 20px;
+    border: 2px solid white;
     }
 
    .figureleft {
-    margin-left: 10%;
-    margin-right: 2%;
-    width: 40%;
-    
+    width: 50%;
+    margin-right: 5%;
+    text-align: center;
     }
 
-    .articleright {
-    margin-top: 30px;
-    margin-left: 2%;
-    margin-right: 10%;
-    width: 36%
+    .articleright {;
+    width: 45%;
+    margin: auto 0;
     }
 
     .articleleft {
-    margin-top: 50px;
-    margin-left: 8%;
-    margin-right: 2%;
-    width: 36%;
+    width: 45%;
+    margin: auto 0;
     }
 
     .figureright {
-    margin-left: 6%;
-    margin-right: 10%;
-    width: 40%;
+    width: 50%;
+    margin-left: 5%;
+    text-align: center;
     }
 
   .shadow {
-    box-shadow: -50px 50px rgba(1, 38, 68, 0.9);
+    box-shadow:  rgba(61, 61, 61, 0.9);
   }
 
-  #boatrepairimg {
+  .pic {
     width: 100%;
+  }
+
+  .pictall {
+    text-align: center;
+    max-height: 400px;
   }
 
   .button2 {
@@ -220,6 +222,10 @@ button {
   .button2 a {
     color:white;
     text-decoration: none;
+  }
+
+  .fig2nd {
+    
   }
 
 /* Section 2 */
@@ -286,7 +292,6 @@ button {
     }
     .section {
         flex-direction: column;
-        border: 2px solid white;
     }
     .fig2nd {
         flex-direction: column-reverse;
@@ -295,28 +300,22 @@ button {
         box-shadow: -20px 20px rgba(1, 38, 68, 0.9);
     }
     .figureleft {
-    margin-left: 10%;
-    margin-right: 10%;
+
     width: 80%;
     }
     
     .articleright {
-    margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+
     width: 80%
     }
 
     .articleleft {
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+;
+ 
     width: 80%;
     }
 
     .figureright {
-    margin-left: 10%;
-    margin-right: 10%;
     width: 80%;
     }
   }
