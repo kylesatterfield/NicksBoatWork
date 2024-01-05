@@ -8,6 +8,7 @@
     <title>Nicks Boat Work</title>
 </head>
     <body>
+
         <nav class="navbar">
             <div class="container nav-container">
                 <a href="index.html"><img src="resources/images/Nicks Boat Work Logo noback.png" alt="maryland boat repair logo" id="logo"></a>
@@ -23,17 +24,32 @@
                 </div>
             </div>
         </nav>
+        <nav id="nav2">
+            <div class="dropdown" onclick="toggleDropdown()">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                  <a href="#link1">Repairs</a>
+                  <a href="#link2">Boat Painting</a>
+                  <a href="#link3">Fiberglass</a>
+                  <a href="#link3">Gelcoat</a>
+                  <a href="#link3">Brightwork</a>
+                  <a href="#link3">Consulting</a>
+                </div>
+            </div>
+        </nav>
+
         <header>
             <div class="container bannerimg">
                 <div class="bannertext">
-                    <h2>Just Expert</h2>
-                    <h2>Service</h2>
+                    <h2>No Fees</h2>
+                    <h2>Just Service</h2>
                     <br>
                     <div class="bannertext2">
                         <h4>No Storage Fees.</h4>
                         <h4>No Parts Markups.</h4>
                         <h4>No Overhead Costs.</h4>
-                        <h4>Just Expert Service for $55/h.</h4>
+                        <h4>No Hidden Fees.</h4>
+                        <h4>Just Expert Service.</h4>
                     </div>
                 </div>
             </div>
@@ -46,6 +62,7 @@
                 <a href="tel:4433653215">Call me!</a>
             </button>
         </header>
+
         <main>
 
             <section class="container section">
@@ -76,7 +93,7 @@
                     </button>
                 </article>
                 <figure class="figureright">
-                    <img src="resources/images/front/Maryland Boat Painting.png" alt="Boat Painting in Maryland" class="pic shadow">
+                    <img src="resources/images/front/Maryland Boat Painting.png" alt="Boat Painting in Maryland" class="pic">
                 </figure>
             </section>
             
@@ -107,7 +124,7 @@
                         <a href="gelcoatrepair.html">How to Repair Gelcoat</a>
                     </button>
                 </article>
-                <figure class="figureright">
+                <figure class="figurerightshadow">
                         <img src="resources/images/front/Gelcoat Repair in Maryland.jpg" alt="Boat Repair in Maryland" class="pic shadow">
                 </figure>
             </section>
@@ -146,9 +163,28 @@
                         <img src="resources/images/front/Boat Consultant in Maryland.png" alt="Boat Repair in Maryland" class="pictall">
                 </figure>
             </section>
-
-        </main>
         
+        </main>
 
+        <footer class="container">
+            <div class="contact">
+                <img src="resources/images/Nicks Boat Work Logo.png" alt="marine consultant">
+                <br>
+                <br>
+                <p>443-365-3215</p>
+                <br>
+                <p>nicksboatwork@gmail.com</p>
+                <br>
+                <p>3 Dickerson Street</p>
+                <p>Harrington, DE 19952</p>
+            </div>
+        </footer>
     </body>
+
+    <script>
+        function toggleDropdown() {
+          var dropdown = document.querySelector('.dropdown');
+          dropdown.classList.toggle('show');
+        }
+      </script>
 </html>
