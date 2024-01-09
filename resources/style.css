@@ -13,6 +13,10 @@ body {
     width: 100%;
 }
 
+h1 {
+    display: none;
+}
+
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 70px;
@@ -121,6 +125,31 @@ header {
     top: 170px;
 }
 
+.bannertextpage{
+    display: inline-block;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 800px;
+    color: white;
+    left: 10%;
+    top: 150px;
+}
+
+.bannertextpage h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-left: -50px;
+    line-height: 50px;
+}
+
+.topimg {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    right: 10%
+}
+
 .video-container {
     display: block;
     z-index: 2;
@@ -168,12 +197,6 @@ button {
 }
 
     /* Dropdown */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    border: 2px solid white;
-}
-
 .dropbtn {
     margin: 0 auto;
     margin-top: 30px;
@@ -198,6 +221,10 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+}
+
+.dropdown-content2 {
+    top: 236px;
 }
 
 .dropdown-content a {
@@ -292,6 +319,10 @@ button {
         text-align: center;
     }
 
+    .footer {
+        width: 100%;
+    }
+
     .contact {
         margin: 5% auto;
     }
@@ -304,6 +335,17 @@ button {
     .contact p {
         text-align: center;
     }
+
+/* Carousel */
+.carousel {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.carousel h2 {
+    text-align: center;
+}
 
   /* Mobile */
 
