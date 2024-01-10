@@ -118,33 +118,33 @@ header {
 .bannertext {
     display: inline-block;
     position: absolute;
-    flex-wrap: nowrap;
     width: 400px;
     color: white;
     left: 10%;
     top: 170px;
 }
 
-.bannertextpage{
-    display: inline-block;
-    position: absolute;
-    flex-wrap: wrap;
-    width: 800px;
-    color: white;
-    top: 150px;
+.toppage {
+    background-color: red;
+    width: 100%;
+    flex-direction: row;
+
 }
 
-.bannertextpage h4 {
-    font-size: 30px;
-    font-family: 'Playfair Display', serif;
+.bannerpage {
+    width: 40%;
+    margin:;
+    
 }
 
 .topimg {
-    width: 40%;
-    height: auto;
-    position: absolute;
-    top: 280px;
-    right: 10%
+    width: 40%;;
+    margin:;
+}
+
+.bannerpage h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
 }
 
 .video-container {
