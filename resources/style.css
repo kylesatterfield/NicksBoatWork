@@ -117,7 +117,8 @@ header {
     width: 400px;
     color: white;
     left: 10%;
-    top: 170px;
+    top: 200px;
+    text-align: center;
 }
 
 .toppage {
@@ -136,7 +137,6 @@ header {
     width: 38%;
     max-width: 600px;
     margin: auto 5% auto 1%;
-    
 }
 
 .bannerpage h4 {
@@ -174,11 +174,12 @@ button {
     font-size: 20px;
     cursor: pointer;
     border-radius: 10px;
+    min-width: 150px;
 }
 
 #call {
     position: absolute;
-    margin-top: 380px;
+    margin-top: 400px;
     left: 50%;
     transform: translate(-50%, 0);
     display: none;
@@ -193,11 +194,11 @@ button {
     /* Dropdown */
 .dropbtn {
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 50px;
     border: 1px solid white;
     color: white;
     background-color: rgba(1, 38, 68, 0.9);
-    padding: 15px 60px;
+    padding: 15px 64px;
 }
 
 .dropbtn:active {
@@ -207,18 +208,18 @@ button {
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 140px;
+    min-width: 176px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align:center;
-    top: 372px;
+    top: 392px;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
 }
 
 .dropdown-content2 {
-    top: 236px;
+    top: 200px;
 }
 
 .dropdown-content a {
@@ -344,21 +345,24 @@ button {
 
 .carousel h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Article */
 
-article h4 {
+article h4, .imgbox h4 {
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
-    line-height: 40px;
+    margin-bottom: 50px;
+    margin-top: 150px;
 }
 
 article .ol {
-    font-size: 10px;
+    font-size: 25px;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 article ol {
@@ -366,12 +370,25 @@ article ol {
     text-align: left;
 }
 
+.paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.paragraph li {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
 /* logobox */
 
 .logobox {
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10%;
+    margin: 0 10% 10% 10%;
     width: 80%;
 }
 
@@ -427,7 +444,7 @@ article ol {
     }
     .bannerimg {
         width: 100%;
-        height: 740px;
+        height: 800px;
     }
     .bannertext {
         margin-top: 100px;
@@ -438,7 +455,7 @@ article ol {
     .bannertext h2 {
         font-size: 50px;
     }
-    .bannertext h4 {
+    .bannerpage h4 {
         font-size: 20px;
     }
     header {
@@ -454,16 +471,34 @@ article ol {
         display: block;
     }
     .bannerpage h2 {
-        font-size: 60px;
+        font-size: 40px;
     }
     .toppage {
         margin-top: -30px;
         margin-bottom: -300px;
     }
     .pagehead {
-        margin-bottom: 200px;
+        margin-top: 50px;
+        margin-bottom: 130px;
     }
-  }
+    .section p {
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 15px;
+    }
+    .pic {
+        margin-bottom: 10px;
+    }
+    .pictall {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .section:nth-of-type(1) {
+        margin-top: 240px;
+    }
+    }
+    
 
   @media screen and (max-width: 1000px) {
   .video-container {
@@ -472,7 +507,23 @@ article ol {
     .carousel h2 {
         font-size: 30px;
     }
-  }
+    article h4, .imgbox h4 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    article .ol {
+        font-size: 13px;
+    }
+    .paragraph li, .paragraph p {
+        font-size: 13px;
+    }
+    .bannertext {
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    }
 
   @media screen and (max-width: 1200px) {
     .section {
