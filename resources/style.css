@@ -121,7 +121,7 @@ header {
 }
 
 .toppage {
-    margin-top: 100px;
+    margin-top: 90px;
     flex-wrap: nowrap;
     width: 100%;
 }
@@ -331,6 +331,11 @@ button {
     }
 
 /* Carousel */
+
+.pagesection {
+    margin-bottom: 100px;
+}
+
 .carousel {
     width: 80%;
     height: 70%;
@@ -339,6 +344,7 @@ button {
 
 .carousel h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
   /* Mobile */
@@ -419,7 +425,10 @@ button {
   @media screen and (max-width: 1000px) {
   .video-container {
     display: none;
-}
+    }
+    .carousel h2 {
+        font-size: 30px;
+    }
   }
 
   @media screen and (max-width: 1200px) {
