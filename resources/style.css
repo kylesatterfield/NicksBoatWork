@@ -347,7 +347,49 @@ button {
     margin-bottom: 20px;
 }
 
-  /* Mobile */
+/* Article */
+
+article h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+
+article .ol {
+    font-size: 10px;
+    text-align: center;
+}
+
+article ol {
+    display: inline-block;
+    text-align: left;
+}
+
+/* logobox */
+
+.logobox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10%;
+}
+
+.imgblock {
+    background-color: white;
+    margin: 2%;
+    width: 40%;
+    max-width: 150px;
+    aspect-ratio : 1 / 1;
+    align-items: center;
+}
+
+.imgblock img {
+    width: 100%;
+    align-items: center;
+}
+
+
+/* Mobile */
 
   @media screen and (max-width: 600px) {
     .dropdown {
