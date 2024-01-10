@@ -127,14 +127,10 @@ header {
 .toppage {
     background-color: red;
     width: 100%;
-    flex-direction: row;
-
 }
 
 .bannerpage {
     width: 40%;
-    margin:margin: auto 4% auto 1%;;
-    
 }
 
 .topimg {
