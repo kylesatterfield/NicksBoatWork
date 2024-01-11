@@ -284,6 +284,7 @@ button {
         box-shadow: -30px 30px rgba(1, 38, 68, 0.9);
     }
 
+    
 /* Footer */
 
     footer {
@@ -383,6 +384,7 @@ button {
     #nav2 {
         display: block;
     }
+
   }
 
   @media screen and (max-width: 1000px) {
