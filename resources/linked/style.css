@@ -255,6 +255,9 @@ button {
     margin-top: 170px;
     }
 
+    .pagesection {
+    }
+
     .pic {
     width: 100%;
     }
@@ -365,7 +368,7 @@ article h4, .imgbox h4 {
     font-size: 60px;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 article .ol {
@@ -510,6 +513,9 @@ article ol {
     .carousel {
         width: 90%;
         max-height: 80%;
+    }
+    .pagesection:nth-of-type(1) {
+        margin-top:200px;
     }
     }
     
