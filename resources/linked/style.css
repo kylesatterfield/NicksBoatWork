@@ -395,6 +395,13 @@ article ol {
     text-align: justify;
 }
 
+.sublist {
+    margin-left: 20px;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    
+}
+
 /* logobox */
 
 .logobox {
