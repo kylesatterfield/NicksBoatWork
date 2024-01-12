@@ -399,7 +399,11 @@ article ol {
     margin-left: 20px;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
-    
+}
+
+.boldp {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 /* logobox */
