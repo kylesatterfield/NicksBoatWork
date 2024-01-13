@@ -136,7 +136,9 @@ header {
 .topimg {
     width: 38%;
     max-width: 600px;
-    margin: auto 5% auto 1%;
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-top: 50px;
 }
 
 .bannerpage h4 {
@@ -376,6 +378,7 @@ article .ol {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
 }
 
 article ol {
