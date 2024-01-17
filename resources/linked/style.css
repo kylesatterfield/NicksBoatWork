@@ -202,6 +202,13 @@ header {
     font-family: 'Playfair Display', serif;
 }
 
+.bannerpage h5 {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
 .video-container {
     display: block;
     z-index: 2;
@@ -594,6 +601,12 @@ article ol {
     }
     .carousel-inner {
         border: none;
+    }
+    .bannerpage h5 {
+        font-size: 20px;
+        line-height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
     }
     }
     
