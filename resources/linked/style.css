@@ -101,7 +101,7 @@ header {
 
 /* banner */
 .bannerimg {
-    background-image: linear-gradient( rgba(129, 58, 0, 0.9), rgba(1, 38, 68, 0.9)), url("/resources/images/background/boat repair 2.jpg");
+    background-image: linear-gradient( rgba(129, 58, 0, 0.8), rgba(1, 38, 68, 0.8)), url("/resources/images/background/boat repair 2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -112,7 +112,7 @@ header {
 }
 
 .bannerimgrepair {
-    background-image: linear-gradient( rgba(129, 58, 0, 0.9), rgba(1, 38, 68, 0.9)), url("/resources/images/background/boat repair 2.webp");
+    background-image: linear-gradient( rgba(129, 58, 0, 0.8), rgba(1, 38, 68, 0.8)), url("/resources/images/background/boat repair 2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -123,7 +123,7 @@ header {
 }
 
 .bannerimgpainting {
-    background-image: linear-gradient( rgba(129, 58, 0, 0.9), rgba(1, 38, 68, 0.9)), url("/resources/images/background/boat painting.jpg");
+    background-image: linear-gradient( rgba(129, 58, 0, 0.8), rgba(1, 38, 68, 0.8)), url("/resources/images/background/boat painting.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -134,7 +134,7 @@ header {
 }
 
 .bannerimgfiberglass {
-    background-image: linear-gradient( rgba(129, 58, 0, 0.9), rgba(1, 38, 68, 0.9)), url("/resources/images/background/BoatFiberglass.jpg");
+    background-image: linear-gradient( rgba(129, 58, 0, 0.8), rgba(1, 38, 68, 0.8)), url("/resources/images/background/BoatFiberglass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -145,7 +145,7 @@ header {
 }
 
 .bannerimggelcoat {
-    background-image: linear-gradient( rgba(129, 58, 0, 0.9), rgba(1, 38, 68, 0.9)), url("/resources/images/background/GelcoatRepair.jpg");
+    background-image: linear-gradient( rgba(129, 58, 0, 0.8), rgba(1, 38, 68, 0.8)), url("/resources/images/background/GelcoatRepair.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -156,7 +156,7 @@ header {
 }
 
 .bannerimgvarnishing {
-    background-image: linear-gradient( rgba(129, 58, 0, 0.9), rgba(1, 38, 68, 0.9)), url("/resources/images/brightwork/billickbrightwork/Maryland Brightwork Service 4.jpg");
+    background-image: linear-gradient( rgba(129, 58, 0, 0.8), rgba(1, 38, 68, 0.8)), url("/resources/images/brightwork/billickbrightwork/Maryland Brightwork Service 4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
