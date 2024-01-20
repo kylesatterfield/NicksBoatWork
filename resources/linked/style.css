@@ -186,6 +186,10 @@ header {
     text-align: center;
 }
 
+.bannertext h4 {
+    font-size: 25px;
+}
+
 .toppage {
     margin-top: 90px;
     flex-wrap: nowrap;
@@ -212,10 +216,11 @@ header {
 }
 
 .bannerpage h5 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
 .video-container {
