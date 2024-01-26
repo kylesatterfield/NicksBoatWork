@@ -457,7 +457,7 @@ article h4, .imgbox h4 {
 }
 
 article .ol {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -476,7 +476,7 @@ article ol {
 }
 
 .paragraph li {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 80px;
     margin-bottom: 70px;
     text-align: justify;
