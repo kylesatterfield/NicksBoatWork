@@ -14,7 +14,13 @@ body {
 }
 
 h1 {
-    display: none;
+    position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 h2 {
